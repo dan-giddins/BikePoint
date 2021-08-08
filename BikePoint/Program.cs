@@ -13,7 +13,6 @@ namespace BikePoint
 			var restHelper = new RestHelper("https://api.tfl.gov.uk/BikePoint");
 			Console.WriteLine("Getting data...");
 			var bikePoints = await restHelper.Get<List<BikePoint>>("");
-			Console.WriteLine("Got data...");
 			var brokenBikePoints = bikePoints.Select(x => (x, NumberOfBrokenDocks(x)))
 				.Where(x => x.Item2 > 0)
 				.ToList()
