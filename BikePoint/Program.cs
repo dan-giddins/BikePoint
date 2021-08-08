@@ -20,7 +20,7 @@ namespace BikePoint
 				.OrderByDescending(x => x.Item2);
 			foreach (var brokenBikePoint in brokenBikePoints)
 			{
-				Console.WriteLine($"{brokenBikePoint.x.Id.PadRight(20)}{brokenBikePoint.x.CommonName.PadRight(50)}{brokenBikePoint.Item2}");
+				Console.WriteLine($"{brokenBikePoint.x.Id,-20}{brokenBikePoint.x.CommonName,-50}{brokenBikePoint.Item2}");
 			}
 		}
 
