@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BikePoint", "BikePoint\BikePoint.csproj", "{8597C9C9-3863-4277-A036-B145A7811146}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8597C9C9-3863-4277-A036-B145A7811146}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8597C9C9-3863-4277-A036-B145A7811146}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8597C9C9-3863-4277-A036-B145A7811146}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8597C9C9-3863-4277-A036-B145A7811146}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7CD90B6F-F4E6-4986-B9E6-BB3B4A7F4C4F}
+	EndGlobalSection
+EndGlobal
