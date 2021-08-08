@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\RestHelper\UoN.Library.Api.RestHelper\RestHelper.csproj" />
+    <ProjectReference Include="..\..\RestHelper\RestHelper\RestHelper.csproj" />
   </ItemGroup>
-
+	
 </Project>

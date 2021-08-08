@@ -1,8 +1,8 @@
-﻿using System;
+﻿using RestHelperLib;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using UoN.Library.Api.RestHelper;
 
 namespace BikePoint
 {
